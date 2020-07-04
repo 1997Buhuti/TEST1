@@ -61,6 +61,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="shiit.cs" />
     <EmbeddedResource Include="Buhuti.resx">
       <DependentUpon>Buhuti.cs</DependentUpon>
     </EmbeddedResource>
