@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Buhuti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buhuti.Designer.cs">
+      <DependentUpon>Buhuti.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form10.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +61,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Buhuti.resx">
+      <DependentUpon>Buhuti.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form10.resx">
       <DependentUpon>Form10.cs</DependentUpon>
     </EmbeddedResource>
